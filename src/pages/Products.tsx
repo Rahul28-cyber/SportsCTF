@@ -95,7 +95,7 @@ const Products = () => {
   return (
     <div className="pt-16">
       {/* Conditional Flag Section */}
-      {selectedCategory === "' OR 1=1--" && (
+      {selectedCategory === "ctfs" && (
         <section className="py-12 bg-green-500 text-white text-center">
           <h2 className="text-3xl font-bold">
             Flag: <strong className="font-extrabold">SpectreCTF{'{My_n4m3_1s_54h4_Tk6vJ2pX}'}</strong>
